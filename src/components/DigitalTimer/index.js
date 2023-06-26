@@ -74,6 +74,7 @@ class DigitalTimer extends Component {
 
   onClickReset = () => {
     this.setState({
+      defaultTimeMin: '25',
       timerMinutes: '25',
       timerSeconds: '00',
       isStarted: false,
